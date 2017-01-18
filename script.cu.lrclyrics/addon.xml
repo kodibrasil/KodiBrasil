@@ -1,33 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
-<addon id="repository.kodibrasilforum" name="Kodi Brasil Forum Repository" version="1.0.5" provider-name="Wanilton">
-	<extension point="xbmc.addon.repository" name="Kodi Brasil Forum Repository">
-		<info>http://raw.github.com/kodibrasil/kodibrasilforum/master/addons.xml</info>
-		<checksum>http://raw.github.com/kodibrasil/kodibrasilforum/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/kodibrasil/kodibrasilforum/master/repo</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Kodi Brazil Forum Repository Addon</summary>
-		<description>Official Repository Kodi Brazil Forum</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="resource.images.mediaicons.coloured" name="Media Icons Pack for Aeon MQ 7 - Coloured" version="0.0.7" provider-name="Devilshura/MarcosQui">
-	<extension point="kodi.resource.images" compile="true" type="mediaicons" />
-	<requires>
-		<import addon="kodi.resource" version="1.0.0"/>
-	</requires>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Media icons pack for Aeon MQ 7 - coloured</summary>
-		<summary lang="pt_br">Pacote de etiquetas de mídia para Aeon MQ 7- colorido</summary>
-		<description lang="en">Media icons pack - coloured - Compatible with skin Aeon MQ 7.</description>
-		<description lang="pt_br">Pacote de etiquetas de mídia - Compatível com a skin Aeon MQ 7.</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
 <addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="5.3.4" provider-name="Taxigps, ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
@@ -107,4 +78,3 @@
 		<source>https://github.com/ronie/script.cu.lrclyrics/</source>
 	</extension>
 </addon>
-</addons>
